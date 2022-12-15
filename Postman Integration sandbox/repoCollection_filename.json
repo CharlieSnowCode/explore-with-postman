@@ -42,7 +42,22 @@
 			},
 			"request": {
 				"method": "GET",
-				"header": []
+				"header": [],
+				"url": {
+					"raw": "www.google.com?q=cats",
+					"host": [
+						"www",
+						"google",
+						"com"
+					],
+					"query": [
+						{
+							"key": "q",
+							"value": "cats",
+							"type": "text"
+						}
+					]
+				}
 			},
 			"response": []
 		}
